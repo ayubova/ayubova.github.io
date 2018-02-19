@@ -1,4 +1,8 @@
-import data from 'data.js';
+var _data = require('data.js');
+
+var _data2 = _interopRequireDefault(_data);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const tablebody = document.getElementById('tablebody');
 const rowsPerPage = 10;
