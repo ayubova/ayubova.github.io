@@ -1,4 +1,4 @@
-import data from './data';
+import data from 'data';
 
 const tablebody = document.getElementById('tablebody');
 const rowsPerPage = 10;
