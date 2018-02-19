@@ -1,8 +1,4 @@
-var _data = require('data.js');
-
-var _data2 = _interopRequireDefault(_data);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+import data from 'data.js';
 
 const tablebody = document.getElementById('tablebody');
 const rowsPerPage = 10;
